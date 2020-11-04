@@ -1,0 +1,23 @@
+header{
+  color: #007765;  
+  height: 84px;
+  position: fixed;
+}
+
+header a{
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+body{
+  
+}
+
+.content{
+    width: 1219px;
+    padding: 0px 55px;
+    
+}

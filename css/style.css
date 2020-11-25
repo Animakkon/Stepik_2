@@ -21,3 +21,8 @@ body{
     padding: 0px 55px;
     
 }
+/*25.11.2020*/
+
+.block__problem, .block__team{
+    background: #EEEEEE;
+}

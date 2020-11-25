@@ -1,12 +1,4 @@
-header {
-  background-color: #007765;
-  position: fixed;
-}
-.flex{
-  display: flex; 
-  justify-content: space-between;  
-  flex-direction: row;
-}
+
 /*
 header a {
   float: left;
@@ -23,15 +15,46 @@ header::after {
 }*/
 
 
+/*25.11.2020*/
+body{
+  margin: 0;
+}
+
+.main {
+  background-color: #eeeeee;
+}
+
+
+#introducing {
+  background-color: #ffffff;
+}
+
 .content {
   max-width: 1109px;
   padding: 0px 55px;
   margin: 0 auto;
 }
-/*25.11.2020*/
-.main {
-  background-color: #eeeeee;
+
+header {
+  background-color: #007765;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
 }
-#introducing {
-  background-color: #ffffff;
+
+.flex{
+  display: flex; 
+  flex-direction: row;  
+  justify-content: space-between;  
+  padding: 15px 55px;
+}
+
+a> img{
+  max-width: 184px;
+}
+
+nav{
+  margin: auto 0px;
 }

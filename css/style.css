@@ -66,9 +66,10 @@ nav{
 #introducing img{
   width: 115px;
   float: left;
+  margin-right: 48px;
 }
 
-.introducing__aboutPiedPiper::after{
+#introducing img::after{
   content: "";
   clear: both;
 }

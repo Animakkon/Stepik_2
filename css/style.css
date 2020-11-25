@@ -1,30 +1,37 @@
-header{
-  background-color: #007765;  
+header {
+  background-color: #007765;
   position: fixed;
 }
-
-header a{
-    float: left;
+.flex{
+  display: flex; 
+  justify-content: space-between;  
+  flex-direction: row;
+}
+/*
+header a {
+  float: left;
 }
 
-nav{
-    float: right;
+nav {
+  float: right;
 }
 
-body{
-  
-}
+header::after {
+  content: "";
+  display: block;
+  clear: both;
+}*/
 
-.content{
-    max-width: 1109px;
-    padding: 0px 55px;
-    margin: 0 auto;
-    
+
+.content {
+  max-width: 1109px;
+  padding: 0px 55px;
+  margin: 0 auto;
 }
 /*25.11.2020*/
-.main{
-   background-color: #EEEEEE; 
+.main {
+  background-color: #eeeeee;
 }
-#introducing{
-    background-color: #FFFFFF;
+#introducing {
+  background-color: #ffffff;
 }

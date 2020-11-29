@@ -19,7 +19,8 @@ body{
 }
 
 section{
-  margin-bottom: 140px;
+  padding-top: 48px;
+  padding-bottom: 92px;
 }
 
 p{
@@ -49,6 +50,38 @@ a> img{
 nav{
   margin: auto 0px;
 }
+
+.main{
+  margin-top: 84px;
+}
+
+
+.piperNet{
+  background-image: url("/img/Jumborton.png");
+}
+
+.together{
+  background-image: url("/img/hero.png");
+}
+
+.hero_text.content{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} 
+
+.block__hero{
+  min-height: 400px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 
 #introducing img{
   width: 115px;

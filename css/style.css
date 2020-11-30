@@ -1,3 +1,14 @@
+@font-face{
+  font-family: 'Font_500';
+  src: url('../fonts/Roboto-Medium 500.ttf');  
+
+  url: ('../fonts/Roboto-Medium 500.ttf') format('ttf');
+
+  font-weight: normal;
+  font-style: normal;
+  }
+
+
 /*25.11.2020*/
 body{
   margin: 79px 0 0 0;
@@ -49,6 +60,14 @@ a> img{
 
 nav{
   margin: auto 0px;
+
+}
+
+nav a{
+  text-decoration: none;
+  font-family: "Font_500";
+  line-height: 28px;
+  color: #FFFFFF;
 }
 
 .main{

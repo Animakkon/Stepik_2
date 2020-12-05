@@ -1,15 +1,14 @@
-    @font-face{
-      font-family: 'Roboto';
-      src: url('../fonts/Roboto-Regular 400.ttf');  
-    
-      url: ('../fonts/Roboto-Regular 400.ttf') format('ttf');
-    
-      font-weight: normal;
-      font-style: normal;
-      }
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular 400.ttf");
 
-/*25.11.2020*/
-body{
+  url: ("../fonts/Roboto-Regular 400.ttf") format("ttf");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
   margin: 79px 0 0 0;
 }
 
@@ -18,7 +17,6 @@ body{
 
   font-family: "Roboto";
 }
-
 
 #introducing {
   background-color: #ffffff;
@@ -30,12 +28,13 @@ body{
   margin: 0 auto;
 }
 
-section{
+section {
   margin: 0px;
 }
 
-p{
+.main p {
   font-size: 32px;
+  line-height: 37px;
 }
 
 header {
@@ -47,49 +46,46 @@ header {
   left: 0;
 }
 
-.flex{
-  display: flex; 
-  flex-direction: row;  
-  justify-content: space-between;  
-  padding: 20px 55px 19px 55px;  /*прям как в шаблоне*/
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 55px 19px 55px; /*прям как в шаблоне*/
 }
 
-a> img{
+a > img {
   max-width: 184px;
 }
 
-header a:first-child{
+header a:first-child {
   height: 45px;
 }
 
-nav{
+nav {
   margin: auto 0px;
 }
 
-nav a{
-
+nav a {
   text-decoration: none;
   font-family: "Roboto";
   font-size: 24px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.main{
+.main {
   margin-top: 84px;
 }
 
-
-.piperNet{
+.piperNet {
   background-image: url("../img/Jumborton.png");
-  
 }
 
-.together{
+.together {
   background-image: url("../img/hero.png");
 }
 
-.hero_text{
+.hero_text {
   text-align: center;
   color: white;
 
@@ -97,20 +93,20 @@ nav a{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
+
   margin: 0px;
 
   font-size: 72px;
   line-height: 84px;
-} 
+}
 
-.together h1{
+.together h1 {
   font-size: 48px;
   line-height: 56px;
   font-style: italic;
 }
 
-.block__hero{
+.block__hero {
   min-height: 403px;
 
   background-position: center;
@@ -119,30 +115,22 @@ nav a{
   position: relative;
 }
 
-
-#introducing img{
+#introducing img {
   width: 115px;
   float: left;
   margin-right: 48px;
 }
 
-#introducing img::after{
+#introducing img::after {
   content: "";
   clear: both;
 }
 
-section h1{
-
+section h1 {
   font-size: 64px;
   line-height: 75px;
 
   text-align: center;
 
   color: #007765;
-}
-
-.main p{
-
-  font-size: 32px;
-  line-height: 37px;
 }

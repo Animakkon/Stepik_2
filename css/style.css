@@ -35,6 +35,12 @@ section {
 .main p {
   font-size: 32px;
   line-height: 37px;
+
+  margin: 0px 0px 35px 0px;
+}
+
+section p:last-child{
+  margin-bottom: 0px;
 }
 
 header {
@@ -100,6 +106,8 @@ nav a {
   line-height: 84px;
 }
 
+
+
 .together h1 {
   font-size: 48px;
   line-height: 56px;
@@ -131,6 +139,7 @@ section h1 {
   line-height: 75px;
 
   text-align: center;
+  margin: 0px 0px 16px 0px;
 
   color: #007765;
 }

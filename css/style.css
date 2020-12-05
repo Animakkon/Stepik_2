@@ -14,7 +14,7 @@
 }
 
 body {
-  margin: 84px 0 0 0;
+  margin-top: 84px;
 }
 
 .main {
@@ -33,18 +33,14 @@ body {
   margin: 0 auto;
 }
 
-section {
-  margin: 0px;
-}
-
 .main p {
   font-size: 32px;
   line-height: 37px;
 
-  margin: 0px 0px 35px 0px;
+  margin-bottom: 35px;
 }
 
-section p:last-child{
+section p:last-child {
   margin-bottom: 0px;
 }
 
@@ -84,10 +80,6 @@ nav a {
   color: #ffffff;
 }
 
-.main {
-  margin-top: 84px;
-}
-
 .piperNet {
   background-image: url("../img/Jumborton.png");
 }
@@ -105,13 +97,9 @@ nav a {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  margin: 0px;
-
   font-size: 72px;
   line-height: 84px;
 }
-
-
 
 .together h1 {
   font-size: 48px;
@@ -144,7 +132,7 @@ section h1 {
   line-height: 75px;
 
   text-align: center;
-  margin: 0px 0px 16px 0px;
+  margin-bottom: 16px;
 
   color: #007765;
 }

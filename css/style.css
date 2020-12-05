@@ -60,21 +60,26 @@ header {
   display: flex; 
   flex-direction: row;  
   justify-content: space-between;  
-  padding: 15px 55px;
+  padding: 20px 55px 19px 55px;  /*прям как в шаблоне*/
 }
 
 a> img{
   max-width: 184px;
 }
 
+header a:first-child{
+  height: 45px;
+}
+
 nav{
   margin: auto 0px;
-
 }
 
 nav a{
+
   text-decoration: none;
   font-family: "Font_500";
+  font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
 }

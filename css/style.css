@@ -100,11 +100,14 @@ nav a{
 
 .hero_text{
   text-align: center;
+  color: white;
+
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  
+  margin: 0px;
 
   font-family: "Font_500";
   font-size: 72px;

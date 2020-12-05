@@ -17,7 +17,8 @@ body {
   margin-top: 84px;
 }
 
-.main {
+.main,
+footer {
   background-color: #eeeeee;
 
   font-family: "Roboto";

@@ -151,8 +151,31 @@ section h1 {
   color: #007765;
 }
 
+.block__team__elements{
+  display: flexbox;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
+figure img{
+  border-radius: 50%;
+  width: 168px;
+  margin-bottom: 12px;
+}
 
+h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #007765;
+}
+
+figcaption{
+  font-family: "Roboto_italic";
+  font-size: 18px;
+  line-height: 21px;
+}
 
 
 footer{

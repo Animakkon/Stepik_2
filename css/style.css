@@ -152,13 +152,19 @@ section h1 {
 }
 
 .block__team__elements{
-  display: flexbox;
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.figure{
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-figure img{
+.block__team__elements .figure img{
   border-radius: 50%;
   width: 168px;
   margin-bottom: 12px;

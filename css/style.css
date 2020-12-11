@@ -162,6 +162,7 @@ section h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 24px 91px;
 }
 
 .block__team__elements .figure img{
